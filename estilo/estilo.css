@@ -1,0 +1,152 @@
+/*Estilos gerais*/
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-color: #a20e1d;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Estilo cabecalho*/
+header{
+    background-color: #a20e1d;
+}
+
+header img{
+    max-height: 300px;
+    margin: auto;
+    display: block;
+}
+
+/*Estilo navegação*/
+
+nav{
+    text-align: center;
+    margin-top: 15px;    
+    margin-bottom: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #c5ae00;
+    padding: 20px 30px ;
+    height: 25px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+nav a:hover{
+    background-color: antiquewhite;
+    color: #c5ae00;
+    transition-duration: .6s;
+}
+
+/*Estilo corpo*/
+
+p{
+    text-indent: 2em;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 4px black;
+    margin-bottom: 15px;
+}
+
+section{
+    padding: 15px;
+}
+
+.galeria img{
+    display: inline-block;
+    height: 250px;
+}
+
+.galeria{
+    margin-left: 50px;
+}
+
+.clear{
+    clear: both;
+    padding-top: 15px;
+}
+
+.clear a{
+    text-decoration: none;
+    color: #a20e1d;
+}
+
+h1, h2{
+    text-align: center;
+    color: #a20e1d;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.493);
+    padding: 15px 0;
+}
+
+/*Página de Cardápio*/
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #c5ae002d;
+    border-radius: 10px;
+}
+
+table td{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+td.direita{
+    text-align: right;
+}
+
+.texto-central{
+    text-indent: 0;
+    text-align: center;
+    padding: 5px;
+    background-color: #a20e1d;
+    color: white;
+}
+
+.alt{
+    background-color: #c5ae0044;
+}
+
+/*Estilo Social*/
+
+.social{
+    text-align: center;
+    text-indent: 0;
+}
+
+.imagens-sociais img{
+    display:block;
+    width: 200px;
+    margin: auto;
+}
+
+/*Estilo Contato*/
+
+.contato img{
+    display: inline-block;
+    height: 60px;
+    margin: auto;
+}
+
+.contato{    
+    text-align: center;
+}
+
+.numero{
+    font-size: 3em;
+}
