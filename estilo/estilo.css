@@ -49,6 +49,8 @@ nav a:hover{
 
 p{
     text-indent: 2em;
+    width: 90%;
+    margin: auto;
 }
 
 main{
@@ -71,6 +73,7 @@ section{
 
 .galeria{
     margin-left: 50px;
+    width: 90%;
 }
 
 .clear{
