@@ -99,6 +99,10 @@ h1, h2{
 
 /*Página de Cardápio*/
 
+.cardapio{
+    padding-top: 30px;
+}
+
 table{
     width: 100%;
     border-collapse: collapse;
@@ -134,18 +138,19 @@ td.direita{
 .social{
     text-align: center;
     text-indent: 0;
+    margin-bottom: 15px;
 }
 
 .imagens-sociais img{
-    display:block;
-    width: 200px;
     margin: auto;
+    height: 150px;
+    text-align: center;
 }
 
 /*Estilo Contato*/
 
 .contato img{
-    display: inline-block;
+    display: inline;
     height: 60px;
     margin: auto;
 }
@@ -156,4 +161,8 @@ td.direita{
 
 .numero{
     font-size: 3em;
+}
+
+.contato-title{
+    padding-top: 30px;
 }
